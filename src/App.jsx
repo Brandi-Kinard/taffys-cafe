@@ -5,7 +5,7 @@ import { MenuPage } from './components/MenuPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/taffys-cafe">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
