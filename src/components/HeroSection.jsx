@@ -3,24 +3,24 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Matter from 'matter-js';
 
 const edibleImages = [
-  '/edibles/avocado-1.png',
-  '/edibles/bread-1.png',
-  '/edibles/cheese-1.png',
-  '/edibles/cheese-2.png',
-  '/edibles/cheese-3.png',
-  '/edibles/cheese-4.png',
-  '/edibles/cheese-5.png',
-  '/edibles/cheese-6.png',
-  '/edibles/crackers-1.png',
-  '/edibles/fruit-1.png',
-  '/edibles/meat-1.png',
-  '/edibles/meat-2.png',
-  '/edibles/pastry-1.png',
-  '/edibles/pastry-2.png',
-  '/edibles/pastry-3.png',
-  '/edibles/pastry-4.png',
-  '/edibles/spread-1.png',
-  '/edibles/spread-2.png',
+  '/taffys-cafe/edibles/avocado-1.png',
+  '/taffys-cafe/edibles/bread-1.png',
+  '/taffys-cafe/edibles/cheese-1.png',
+  '/taffys-cafe/edibles/cheese-2.png',
+  '/taffys-cafe/edibles/cheese-3.png',
+  '/taffys-cafe/edibles/cheese-4.png',
+  '/taffys-cafe/edibles/cheese-5.png',
+  '/taffys-cafe/edibles/cheese-6.png',
+  '/taffys-cafe/edibles/crackers-1.png',
+  '/taffys-cafe/edibles/fruit-1.png',
+  '/taffys-cafe/edibles/meat-1.png',
+  '/taffys-cafe/edibles/meat-2.png',
+  '/taffys-cafe/edibles/pastry-1.png',
+  '/taffys-cafe/edibles/pastry-2.png',
+  '/taffys-cafe/edibles/pastry-3.png',
+  '/taffys-cafe/edibles/pastry-4.png',
+  '/taffys-cafe/edibles/spread-1.png',
+  '/taffys-cafe/edibles/spread-2.png',
 ];
 
 const navItems = [
@@ -396,7 +396,7 @@ export const HeroSection = () => {
         style={{ bottom: '-50px' }}
       >
         <img 
-          src="/edibles/board.png"
+          src="/taffys-cafe/edibles/board.png"
           alt="charcuterie board"
           className="w-[900px] h-auto"
           style={{ 
