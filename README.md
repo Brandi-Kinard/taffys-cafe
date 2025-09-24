@@ -14,6 +14,8 @@ A playful, interactive cafe website featuring physics-based charcuterie board bu
 
 Experience the magic of building your perfect charcuterie board with realistic physics!
 
+**[👉 View Live Demo](https://brandi-kinard.github.io/taffys-cafe/)**
+
 ## 🛠 Tech Stack
 
 - **React 18** - Modern React with hooks and functional components
